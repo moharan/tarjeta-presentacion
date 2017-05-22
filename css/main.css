@@ -1,0 +1,95 @@
+body {
+	background-color: #B0C4DE;
+	margin: 0 auto;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.contenedor {
+	width: 465px;
+	height: 255px;
+	position: relative;
+	margin: 100px auto;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+}
+.bg_texto01 {
+	position: absolute;
+	left: 125px;
+	width: 0;
+	height: 0;
+	border-left: 170px solid transparent;
+	border-right: 170px solid transparent;
+	border-bottom: 255px solid #666;
+}
+
+.bg_texto02 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 170px;
+	height: 255px;
+	background: #666;
+}
+
+.logo02 {
+	background-image: url(../img/laboratoria_codeacademy.png);
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.logo01 {
+	position: absolute;
+	left: 100px;
+	top: 0;
+	background-image: url(../img/laboratorialogo.png);
+	background-size: cover;
+	width: 150px;
+	height: 50px;
+}
+.texto01 {
+	position: absolute;
+	top: 35px;
+	left: 250px;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	line-height: 85%;
+}
+
+.texto02 {
+	position: absolute;
+	top: 110px;
+	left: 290px;
+	color: #FFD700;
+	font-size: 14px;
+	text-align: center;
+	line-height: 95%;
+}
+
+.texto03 {
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	color: white;
+	font-size: 11px;
+	text-align: left;
+	line-height: 50%;
+	color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
